@@ -6,21 +6,21 @@ const plugin = { themes: [{
 	dark: true,
 	base: {
 		surface: "#000000",
-		surfaceHighlight: "#292e42",
-		surfaceActive: "#1a1b26",
+		surfaceHighlight: "#2f334d",
+		surfaceActive: "#222436",
 		border: "#3b4261",
-		borderSubtle: "#232433",
+		borderSubtle: "#222436",
 		text: "#ffffff",
-		textSubtle: "#a9b1d6",
-		textSubtlest: "#565f89",
-		selection: "#292e42",
-		primary: "#7dcfff",
-		secondary: "#bb9af7",
-		info: "#7aa2f7",
-		success: "#9ece6a",
-		notice: "#e0af68",
-		warning: "#ff9e64",
-		danger: "#f7768e"
+		textSubtle: "#c8d3f5",
+		textSubtlest: "#828bb8",
+		selection: "#2f334d",
+		primary: "#fca7ea",
+		secondary: "#c099ff",
+		info: "#82aaff",
+		success: "#c3e88d",
+		notice: "#ffc777",
+		warning: "#ff966c",
+		danger: "#ff757f"
 	},
 	components: {
 		dialog: { surface: "#0d0d0d" },
@@ -37,13 +37,13 @@ const plugin = { themes: [{
 			border: "#3b4261"
 		},
 		button: {
-			primary: "#7dcfff",
-			secondary: "#bb9af7",
-			info: "#7aa2f7",
-			success: "#9ece6a",
-			notice: "#e0af68",
-			warning: "#ff9e64",
-			danger: "#f7768e"
+			primary: "#fca7ea",
+			secondary: "#c099ff",
+			info: "#82aaff",
+			success: "#c3e88d",
+			notice: "#ffc777",
+			warning: "#ff966c",
+			danger: "#ff757f"
 		}
 	}
 }] };
