@@ -11,13 +11,13 @@ export const plugin: PluginDefinition = {
         // highlighted menu buttons
         surfaceHighlight: "#292e42",
         // active selection on sidebar
-        surfaceActive: "#292e42",
+        surfaceActive: "#1a1b26",
         border: "#3b4261",
         borderSubtle: "#232433",
         text: "#ffffff",
         textSubtle: "#a9b1d6",
         textSubtlest: "#565f89",
-        selection: "#515c7e",
+        selection: "#292e42",
         primary: "#7dcfff",
         secondary: "#bb9af7",
         info: "#7aa2f7",
