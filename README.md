@@ -1,6 +1,6 @@
-# Tokyo Night Black Themes for Yaak
+# Tokyo Black for Yaak
 
-Highly accessible themes for [Yaak], conforming with the highest standard for color contrast between background and foreground values ([WCAG AAA]).
+A high-contrast variant of the popular Tokyo Night theme for WCAG AAA compliance.
 
 [Yaak]: https://yaak.app/
 [WCAG AAA]: https://www.w3.org/WAI/WCAG21/Understanding/contrast-enhanced.html
