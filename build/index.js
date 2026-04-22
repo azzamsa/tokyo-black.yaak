@@ -37,8 +37,8 @@ const plugin = { themes: [{
 			border: "#3b4261"
 		},
 		button: {
-			primary: "#fca7ea",
-			secondary: "#c099ff",
+			primary: "#65bcff",
+			secondary: "#3e68d7",
 			info: "#82aaff",
 			success: "#c3e88d",
 			notice: "#ffc777",

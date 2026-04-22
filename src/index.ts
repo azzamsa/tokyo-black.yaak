@@ -43,9 +43,9 @@ export const plugin: PluginDefinition = {
           border: "#3b4261",
         },
         button: {
-          primary: "#fca7ea",
+          primary: "#3e68d7",
           // icons on the menus
-          secondary: "#c099ff",
+          secondary: "#394b70",
           info: "#82aaff",
           success: "#c3e88d",
           notice: "#ffc777",
