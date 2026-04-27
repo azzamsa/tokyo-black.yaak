@@ -1,0 +1,63 @@
+[tools]
+actionlint = "latest"
+zizmor = "latest"
+
+[tasks.default]
+hide = true
+run = ["mise run dev"]
+
+[tasks.qqq]
+# Deep, thorough checks. Should be run locally.
+description = "Exhaustive quality check"
+depends = ["qa", "meta"]
+
+[tasks.qq]
+# Primarily used in CI.
+description = "Quality check"
+depends = ["qa"]
+
+[tasks.qc]
+# Typically run before pushing. Hand curated.
+description = "Fix before check"
+depends = ["fix", "qq"]
+
+[tasks.qa]
+# Used in git hooks for fast feedback.
+hide = true
+description = "Quick quality check"
+depends = ["fmt-check", "lint"]
+
+[tasks.fix]
+hide = true
+description = "Enforce rules"
+depends = ["fmt", "lint"]
+
+[tasks.dev]
+hide = true
+description = "Develop"
+run = "yaak plugin dev"
+
+[tasks.fmt]
+hide = true
+description = "Format"
+
+[tasks.fmt-check]
+hide = true
+description = "Check formatting"
+
+[tasks.lint]
+hide = true
+description = "Lint"
+depends = ["fmt-check"]
+
+[tasks.publish]
+hide = true
+confirm = 'Ready to ship?'
+description = "Publish"
+run = "yaak plugin publish"
+
+[tasks.meta]
+hide = true
+interactive = true
+description = "Dependency analysis"
+run = ["pnpx actions-up", "actionlint", "zizmor .github/workflows/*"]
